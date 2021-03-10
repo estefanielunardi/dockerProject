@@ -13,6 +13,6 @@ app.get('/https://techcommunity.microsoft.com/t5/image/serverpage/image-id/21707
     res.end(img, 'binaty');
 });
 
-app.listen(3000, function() {
-    console.log("app listening on port 3000!");
+app.listen(5500, function() {
+    console.log("app listening on port 5500!");
 });
